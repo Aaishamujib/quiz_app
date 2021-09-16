@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main-div" id="quesDiv">
+        <div class="inner-div">
+            <div id="timer" class="timer"></div>
+            <h2 class="question" id="question"></h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" onclick="radioBtnSelect(event)" value="">
+                    <label class="answer_label"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" onclick="radioBtnSelect(event)" value="">
+                    <label class="answer_label"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" onclick="radioBtnSelect(event)" value="">
+                    <label class="answer_label"></label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" onclick="radioBtnSelect(event)" value="">
+                    <label class="answer_label"></label>
+                </li>
+       
+            </ul>
+            <button id="answerBtn" attr-val="" attr-page="">Submit</button>
+        </div>
+    </div>
+
+    <div class="main-div hidediv" id="resultDiv">
+        <div class="inner-div">
+            <h3 id="showresult"></h3>
+        </div>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
